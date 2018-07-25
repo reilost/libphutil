@@ -31,7 +31,3 @@
 
 # This file overrides "default.pem" if present.
 /resources/ssl/custom.pem
-
-# User extensions
-/externals/includes/*
-/src/extensions/*
