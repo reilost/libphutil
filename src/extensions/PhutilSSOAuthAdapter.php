@@ -62,6 +62,12 @@ final class PhutilSSOAuthAdapter extends PhutilOAuthAuthAdapter {
     return 'https://sso.ricebook.net/login/oauth/authorize';
   }
 
+  protected function getAuthorizeTokenURI() {
+    return 'https://sso.ricebook.net/login/oauth/authorize';
+  }
+
+
+
   protected function getTokenBaseURI() {
     return 'https://sso.ricebook.net/oauth/token';
   }
