@@ -10,7 +10,8 @@ final class PhutilSSOAuthAdapter extends PhutilOAuthAuthAdapter {
   }
 
   public function getAdapterDomain() {
-    return 'https://sso.ricebook.net';
+    return 'sso.ricebook.net';
+
   }
 
   public function getAccountID() {
